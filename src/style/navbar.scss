@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d0000b;
+  padding: 10px 20px;
+}
+
+nav {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  display: flex;
+
+  .burger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+
+    span {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      transition: 0.3s;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+  }
+
+  li {
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .nav-logo {
+    height: 40px;
+    width: auto;
+    display: flex;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+
