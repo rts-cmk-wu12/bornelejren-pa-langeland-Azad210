@@ -24,17 +24,17 @@ export default function NavBar() {
 
           <ul className={isOpen ? "active" : ""}>
             <li>
-              <a href="#" onClick={handleLinkClick}>
+              <a href="/om-os" onClick={handleLinkClick}>
                 Om os |
               </a>
             </li>
             <li>
-              <a href="#" onClick={handleLinkClick}>
+              <a href="/tilmeld" onClick={handleLinkClick}>
                 Tilmeld som sponsor |
               </a>
             </li>
             <li>
-              <a href="#" onClick={handleLinkClick}>
+              <a href="/børnelejren" onClick={handleLinkClick}>
                 Børnelejren takker |
               </a>
             </li>

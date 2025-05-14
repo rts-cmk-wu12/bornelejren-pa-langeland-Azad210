@@ -52,6 +52,32 @@ nav {
     text-decoration: none;
     color: white;
   }
+
+  
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    .burger-menu {
+      display: grid;
+    }
+
+    ul {
+      position: fixed;
+      top: 30px;
+      right: -100%;
+      height: 100vh;
+      width: 60%;
+        background-color: #d0000b;
+      flex-direction: column;
+      transition: 0.8s;
+
+      &.active {
+        right: 0;
+      }
+    }
+  }
+}
+
 
 
