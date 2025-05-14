@@ -22,7 +22,15 @@ export default function NavBar() {
             <span></span>
           </div>
 
+          
+
           <ul className={isOpen ? "active" : ""}>
+
+              <li>
+              <a href="/" onClick={handleLinkClick}>
+               Forside |
+              </a>
+            </li>
             <li>
               <a href="/om-os" onClick={handleLinkClick}>
                 Om os |

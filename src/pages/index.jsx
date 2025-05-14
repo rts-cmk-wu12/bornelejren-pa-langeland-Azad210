@@ -11,6 +11,7 @@ const home = () => {
     <div className="frontpage-pic">
       <h1>Velkommen til Børnelejren På Langeland</h1>
     </div>
+  
     <div className="frontpage-info">
 <p>Børnelejren på Langeland er en forening, der udelukkende har til formål at sende dårligt
 stillede børn og unge sammen med deres pædagoger på et ophold i landlige omgivelser på

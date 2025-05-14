@@ -13,7 +13,9 @@ const om = () => {
     </div>
 
 <div className="om-os-container">
+     <h2 className="h2-in-om-os">Hvem er vi?</h2>
   <div className="om-os-section">
+
     <img className="om-os-image" src={køkken} alt="Køkken" />
     <p>
       Børnelejren på Langeland er en velgørende, non-profit forening, som afholder
