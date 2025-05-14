@@ -1,3 +1,5 @@
+@use 'font';
+
 body {
   margin: 0;
   padding: 0;
@@ -39,7 +41,7 @@ nav {
     color: white;
     font-size: 1.2rem;
     text-transform: uppercase;
-    font-family: "Courier New", Courier, monospace;
+     font-family: 'Urbanist', sans-serif;
   }
 
   .nav-logo {
@@ -74,6 +76,7 @@ nav {
 
       &.active {
         right: 0;
+        z-index: 100;
       }
     }
   }

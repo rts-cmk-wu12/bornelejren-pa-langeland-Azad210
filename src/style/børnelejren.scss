@@ -1,3 +1,5 @@
+@use 'font';
+
 .børnelejren-info {
   max-width: 900px;
   margin: 50px auto 20px;
@@ -15,11 +17,13 @@
     color: #d0000b;
     margin-bottom: 20px;
     text-align: center;
+     font-family: 'Urbanist', sans-serif;
   }
 
   p {
     font-size: 1.05rem;
     text-align: center;
+     font-family: 'Urbanist', sans-serif;
   }
 }
 
@@ -30,4 +34,5 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 40px;
+   font-family: 'Urbanist', sans-serif;
 }

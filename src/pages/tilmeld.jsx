@@ -44,12 +44,22 @@ const tilmeld = () => {
         <div className="sponsor-form">
             <h2>Tilmeld som sponsor</h2>
             <form>
+               <div className="form-group">
+  <label>Støttetype</label>
+  <select required>
+    <option value="">Vælg støttetype</option>
+    <option value="forening">Støtte til foreningen</option>
+    <option value="lejrsponsorat">Lejrsponsorat</option>
+    <option value="boernesponsorat">Børnesponsorat</option>
+  </select>
+</div>
+
                 <div className="form-group">
-                    <label>Virksomhedsnavn</label>
+                    <label> Firmanavn</label>
                     <input type="text" required />
                 </div>
-                <div className="form-group">
-                    <label>Kontaktperson</label>
+                 <div className="form-group">
+                    <label>Adresse</label>
                     <input type="text" required />
                 </div>
                 <div className="form-group">
@@ -57,12 +67,18 @@ const tilmeld = () => {
                     <input type="email" required />
                 </div>
                 <div className="form-group">
-                    <label>Telefon</label>
-                    <input type="tel" required />
+                <label>Telefon</label>
+                <input
+                type="tel"
+                required
+                pattern="\d{8,}"
+                title="Telefonnummeret skal bestå af mindst 8 cifre"
+                 />
                 </div>
+
                 <div className="form-group">
-                    <label>Besked</label>
-                    <textarea rows="4"></textarea>
+                <label>Beløb</label>
+                <input type="number" required min="0" />
                 </div>
                 <button type="submit">Send tilmelding</button>
             </form>

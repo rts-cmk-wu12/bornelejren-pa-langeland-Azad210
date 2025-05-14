@@ -27,22 +27,22 @@ export default function NavBar() {
           <ul className={isOpen ? "active" : ""}>
 
               <li>
-              <a href="/" onClick={handleLinkClick}>
+              <a href="/" >
                Forside |
               </a>
             </li>
             <li>
-              <a href="/om-os" onClick={handleLinkClick}>
+              <a href="/om-os" >
                 Om os |
               </a>
             </li>
             <li>
-              <a href="/tilmeld" onClick={handleLinkClick}>
+              <a href="/tilmeld" >
                 Tilmeld som sponsor |
               </a>
             </li>
             <li>
-              <a href="/børnelejren" onClick={handleLinkClick}>
+              <a href="/børnelejren" >
                 Børnelejren takker |
               </a>
             </li>
