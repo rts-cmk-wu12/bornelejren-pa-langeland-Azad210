@@ -68,3 +68,40 @@
  color: #d0000b;
   font-family: 'Urbanist', sans-serif;
 }
+
+@media (max-width: 768px) {
+  .om-os-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .om-os-section:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .om-os-image {
+    width: 100%;
+    max-height: 250px;
+  }
+
+  .om-os-section p {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+  }
+
+  .h2-in-om-os {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .frontpage-pic {
+    height: 300px;
+    padding: 0 10px;
+  }
+
+  .frontpage-pic h1 {
+    font-size: 2rem;
+    padding: 0 10px;
+  }
+}
