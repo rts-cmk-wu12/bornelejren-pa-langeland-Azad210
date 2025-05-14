@@ -6,6 +6,9 @@ const børnelejren = () => {
     return (
     <> 
     <NavBar />
+     
+      <div className="børnelejren-pic">
+      </div>
 <div className="børnelejren-info">
   <h2 className="tak-title">Børnelejren takker</h2>
   <p>
@@ -24,3 +27,5 @@ const børnelejren = () => {
     )
 }
 export default børnelejren
+
+

@@ -7,6 +7,8 @@ const tilmeld = () => {
     <> 
         <NavBar />
 
+        
+
      <div className="sponsor-info">
     <h2 className="sponsor-title">Tilmelding Som Sponsor</h2>
     <p>
