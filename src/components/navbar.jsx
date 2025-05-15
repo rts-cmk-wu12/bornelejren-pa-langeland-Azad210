@@ -28,22 +28,22 @@ export default function NavBar() {
 
               <li>
               <a href="/" >
-               Forside |
+               Forside 
               </a>
             </li>
             <li>
               <a href="/om-os" >
-                Om os |
+                Om os 
               </a>
             </li>
             <li>
               <a href="/tilmeld" >
-                Tilmeld som sponsor |
+                Tilmeld som sponsor 
               </a>
             </li>
             <li>
               <a href="/børnelejren" >
-                Børnelejren takker |
+                Børnelejren takker 
               </a>
             </li>
           </ul>

@@ -21,7 +21,7 @@
   }
 
   p {
-    font-size: 1.05rem;
+    font-size: 1rem;
     text-align: center;
      font-family: 'Urbanist', sans-serif;
   }
@@ -46,3 +46,43 @@
   background-repeat: no-repeat;
 
    }
+
+
+
+.tak-subtitle {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sponsor-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sponsor-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+
+}
+
+
+
+.sponsor-card strong {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.sponsor-card p {
+  font-size: 1rem;
+  font-family: 'Urbanist', sans-serif;
+}
